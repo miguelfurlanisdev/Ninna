@@ -1,0 +1,22 @@
+[
+  {"term": "DUM", "def": "Data da última menstruação. É o ponto de partida mais comum para contar a idade gestacional."},
+  {"term": "DPP", "def": "Data provável do parto. É uma estimativa (em geral, 40 semanas após a DUM); poucos bebês nascem exatamente nesse dia."},
+  {"term": "Idade gestacional", "def": "Tempo de gestação, contado em semanas e dias a partir da DUM ou da datação por ultrassom."},
+  {"term": "Pré-natal", "def": "Acompanhamento de saúde durante a gestação, com consultas, orientações e exames indicados pela equipe."},
+  {"term": "Trimestre", "def": "Cada fase de cerca de três meses da gestação. Aqui: 1º até 13 semanas e 6 dias; 2º de 14 a 27 semanas e 6 dias; 3º a partir de 28 semanas."},
+  {"term": "Placenta", "def": "Órgão que se forma no útero durante a gestação e faz a troca de oxigênio e nutrientes entre a mãe e o bebê."},
+  {"term": "Líquido amniótico", "def": "Líquido que envolve o bebê dentro do útero, protegendo e permitindo seus movimentos."},
+  {"term": "Cordão umbilical", "def": "Estrutura que liga o bebê à placenta e leva oxigênio e nutrientes."},
+  {"term": "Ultrassom morfológico", "def": "Exame de imagem que avalia a anatomia do bebê. A equipe de saúde indica quando fazê-lo."},
+  {"term": "Cartão da gestante", "def": "Documento onde são registradas as informações do pré-natal. Leve sempre às consultas e à maternidade."},
+  {"term": "Movimentos fetais", "def": "Os movimentos do bebê percebidos pela gestante. Se você notar que diminuíram, procure avaliação."},
+  {"term": "Contrações de Braxton Hicks", "def": "Contrações de treinamento, em geral irregulares e sem dor intensa. Contrações regulares e progressivas pedem contato com a equipe."},
+  {"term": "Termo", "def": "Gestação a partir de 37 semanas (termo precoce 37–38s6d; termo completo 39–40s6d)."},
+  {"term": "Puerpério", "def": "Período após o parto em que o corpo se recupera, geralmente chamado de pós-parto."},
+  {"term": "Lóquios", "def": "Sangramento vaginal esperado após o parto, que diminui gradualmente ao longo de semanas. Aumento súbito ou odor forte devem ser avaliados."},
+  {"term": "Colostro", "def": "Primeiro leite, em pequena quantidade e rico em anticorpos."},
+  {"term": "Pega", "def": "A forma como o bebê abocanha a mama ao mamar. Uma boa pega costuma evitar dor e fissuras."},
+  {"term": "Plano de parto", "def": "Documento com suas preferências para o parto. Expressa desejos, mas não garante que tudo ocorra como planejado."},
+  {"term": "Pré-eclâmpsia", "def": "Condição da gestação com pressão alta e outros sinais, que precisa de acompanhamento profissional. Só a equipe de saúde pode avaliar."},
+  {"term": "Diabetes gestacional", "def": "Aumento do açúcar no sangue que aparece na gestação. É investigado e acompanhado pela equipe de saúde."}
+]

@@ -1,0 +1,61 @@
+/* ==========================================================================
+   NINNA — TOKENS DE DESIGN  (🔧 EDITAR AQUI para mudar cores, fontes e medidas)
+   Todas as outras folhas de estilo usam estas variáveis. Mudou aqui, mudou no site todo.
+   ========================================================================== */
+:root {
+  /* ---- Paleta principal ---- */
+  --sage-50:  #F2F6F1;   /* verde-sálvia bem claro (fundos suaves) */
+  --sage-100: #E3ECE1;
+  --sage-200: #C8D8C5;
+  --sage-300: #A5BEA1;
+  --sage-400: #86A481;   /* verde-sálvia (tranquilidade) */
+  --sage-600: #55755A;
+  --forest-700: #2C5446; /* verde profundo (confiança) — botões e destaques */
+  --forest-800: #1F4034;
+  --forest-900: #152B24; /* verde muito escuro — textos de destaque e cartões hero */
+
+  --cream:    #FAF6EE;   /* creme: fundo geral do app */
+  --cream-2:  #F3EDE0;   /* creme mais escuro: áreas rebaixadas */
+  --paper:    #FFFFFF;   /* superfície dos cards */
+
+  --rose-100: #F6E3DD;
+  --rose-300: #E3A99B;
+  --rose-500: #C9786B;   /* rosa queimado (acolhimento) */
+  --rose-700: #9C4A3B;   /* versão escura: usada em TEXTO (contraste ok) */
+
+  --lav-100:  #EFEAF7;
+  --lav-300:  #C9BBE3;   /* lavanda suave (delicadeza) */
+  --lav-600:  #6F5C98;
+
+  --sun-100:  #FBF0D3;   /* amarelo-manteiga: alertas leves */
+  --sun-700:  #7A5B12;
+
+  /* ---- Neutros ---- */
+  --ink:      #1E2B27;   /* texto principal */
+  --ink-2:    #3C4A45;
+  --muted:    #5A6762;   /* texto secundário */
+  --line:     #E6E0D2;   /* bordas */
+  --line-2:   #D6CFBE;
+
+  /* ---- Semânticas ---- */
+  --success:  #2F7A4F;
+  --success-bg: #E4F2E9;
+  --danger:   #B3382C;
+  --danger-bg: #FBE7E4;
+  --info-bg:  var(--lav-100);
+
+  /* ---- Tipografia ---- */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;  /* títulos */
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; /* interface */
+
+  /* ---- Medidas ---- */
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --shadow-1: 0 1px 2px rgba(31,64,52,.06), 0 2px 8px rgba(31,64,52,.05);
+  --shadow-2: 0 4px 24px rgba(31,64,52,.10);
+  --shadow-3: 0 16px 48px rgba(21,43,36,.18);
+  --sidebar-w: 264px;
+  --bottomnav-h: 68px;
+  --ease: cubic-bezier(.22,.8,.3,1);   /* curva de animação padrão */
+}

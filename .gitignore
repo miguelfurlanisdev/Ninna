@@ -1,0 +1,12 @@
+# Dependências e builds
+node_modules/
+# Banco de dados local (contém dados pessoais — NUNCA suba para o GitHub)
+data/*.db
+data/*.db-*
+# Segredos
+.env
+.env.*
+!.env.example
+# Sistema
+.DS_Store
+*.log

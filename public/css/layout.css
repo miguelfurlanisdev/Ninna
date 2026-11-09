@@ -1,0 +1,62 @@
+/* ==========================================================================
+   NINNA — LAYOUT DO APP (sidebar no desktop, navegação inferior no celular)
+   ========================================================================== */
+.app { min-height: 100dvh; display: grid; grid-template-columns: 1fr; }
+.sidebar { display: none; }
+.main { min-width: 0; padding-bottom: calc(var(--bottomnav-h) + 24px + env(safe-area-inset-bottom)); }
+.page { width: 100%; max-width: 1080px; margin: 0 auto; padding: 8px 18px 32px; }
+.page-narrow { max-width: 760px; }
+.page-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin: 8px 0 24px; }
+.page-head p { color: var(--muted); margin-top: 6px; max-width: 60ch; }
+
+/* ---- Barra superior ---- */
+.topbar { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; background: rgba(250,246,238,.88); backdrop-filter: blur(10px); border-bottom: 1px solid transparent; transition: border-color .2s; }
+.topbar.scrolled { border-color: var(--line); }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--forest-900); font-family: var(--font-display); font-weight: 700; font-size: 1.45rem; letter-spacing: .02em; }
+.brand svg { width: 34px; height: 34px; }
+.iconbtn { position: relative; width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; display: grid; place-items: center; color: var(--forest-800); }
+.iconbtn:hover { background: var(--sage-100); }
+.iconbtn svg { width: 22px; height: 22px; }
+.iconbtn .count { position: absolute; top: 4px; right: 3px; min-width: 18px; height: 18px; padding: 0 4px; border-radius: 9px; background: var(--rose-700); color: #fff; font-size: .68rem; font-weight: 700; display: grid; place-items: center; }
+
+/* ---- Navegação inferior (celular) ---- */
+.bottomnav { position: fixed; left: 0; right: 0; bottom: 0; height: calc(var(--bottomnav-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: rgba(255,255,255,.94); backdrop-filter: blur(12px); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, 1fr); z-index: 50; }
+.bottomnav a, .bottomnav button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-size: .7rem; font-weight: 600; color: var(--muted); text-decoration: none; background: none; border: 0; position: relative; }
+.bottomnav svg { width: 24px; height: 24px; }
+.bottomnav [aria-current="page"] { color: var(--forest-800); }
+.bottomnav [aria-current="page"]::before { content: ""; position: absolute; top: 0; width: 28px; height: 3px; border-radius: 0 0 4px 4px; background: var(--rose-500); }
+
+/* ---- Menu "Mais" (folha inferior) ---- */
+.more-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.more-grid a { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 16px 8px; border-radius: var(--radius); background: #fff; border: 1px solid var(--line); text-decoration: none; color: var(--forest-900); font-weight: 600; font-size: .85rem; text-align: center; }
+.more-grid a svg { width: 26px; height: 26px; color: var(--forest-700); }
+
+/* ---- Desktop: sidebar fixa ---- */
+@media (min-width: 900px) {
+  .app { grid-template-columns: var(--sidebar-w) 1fr; }
+  .sidebar { display: flex; flex-direction: column; gap: 6px; position: sticky; top: 0; height: 100dvh; padding: 24px 16px; background: var(--paper); border-right: 1px solid var(--line); overflow-y: auto; }
+  .sidebar .brand { padding: 4px 12px 22px; }
+  .sidebar nav { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar nav a { display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-radius: 14px; text-decoration: none; color: var(--ink-2); font-weight: 550; transition: background .2s, color .2s; }
+  .sidebar nav a svg { width: 21px; height: 21px; color: var(--sage-600); }
+  .sidebar nav a:hover { background: var(--sage-50); }
+  .sidebar nav a[aria-current="page"] { background: var(--sage-100); color: var(--forest-900); }
+  .sidebar nav a[aria-current="page"] svg { color: var(--forest-700); }
+  .sidebar .nav-label { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding: 16px 14px 4px; font-weight: 650; }
+  .sidebar .me { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); }
+  .bottomnav { display: none; }
+  .main { padding-bottom: 40px; }
+  .topbar .brand { display: none; }
+  .topbar { justify-content: flex-end; padding: 14px 32px; }
+  .page { padding: 8px 32px 48px; }
+}
+
+/* ---- Telas sem o shell (landing, login, onboarding) ---- */
+.bare { min-height: 100dvh; }
+.auth-wrap { min-height: 100dvh; display: grid; grid-template-columns: 1fr; }
+.auth-art { display: none; background: linear-gradient(160deg, var(--forest-900), var(--forest-700)); color: #fff; padding: 48px; position: relative; overflow: hidden; }
+.auth-art h2 { color: #fff; font-size: 2.2rem; max-width: 14ch; }
+.auth-art p { color: #d6e6dd; max-width: 38ch; margin-top: 14px; }
+.auth-art .brand { color: #fff; }
+.auth-form { display: flex; flex-direction: column; justify-content: center; padding: 32px 22px; max-width: 480px; width: 100%; margin: 0 auto; gap: 20px; }
+@media (min-width: 900px) { .auth-wrap { grid-template-columns: 1.05fr 1fr; } .auth-art { display: flex; flex-direction: column; justify-content: space-between; } .auth-form { padding: 48px; } }

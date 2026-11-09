@@ -1,0 +1,132 @@
+{
+  "_comentario": "🔧 EDITAR: textos que se repetem em todas as semanas de cada trimestre (corpo, checklist, apoio emocional, parceiro, FAQ). Ao mudar este arquivo, rode 'npm run reseed:weeks' ou edite pelo painel admin.",
+
+  "alerts": {
+    "title": "Quando procurar atendimento",
+    "intro": "Estes sinais precisam de avaliação profissional. Não espere a próxima consulta:",
+    "items": [
+      "Sangramento vaginal",
+      "Dor abdominal forte ou que não passa",
+      "Perda de líquido pela vagina",
+      "Febre",
+      "Dor de cabeça forte, visão turva ou luzes piscando",
+      "Inchaço repentino no rosto ou nas mãos",
+      "Falta de ar importante",
+      "Vômitos persistentes que impedem de comer ou beber",
+      "Redução dos movimentos do bebê (depois de você já percebê-los)",
+      "Contrações regulares antes de 37 semanas"
+    ],
+    "emergency": "Convulsão, desmaio, sangramento intenso ou falta de ar intensa: ligue para o SAMU (192) ou vá imediatamente a um pronto atendimento."
+  },
+
+  "1": {
+    "body": {
+      "summary": "No começo, o corpo passa por grandes ajustes hormonais. A experiência varia muito: algumas mulheres têm poucos sintomas, outras sentem bastante.",
+      "common": ["Cansaço e sonolência", "Enjoo, com ou sem vômitos (nem todas sentem)", "Sensibilidade nas mamas", "Vontade de urinar com mais frequência", "Oscilações de humor", "Sensibilidade a cheiros e mudanças no apetite"]
+    },
+    "checklist": [
+      {"k": "prenatal", "t": "Confirmar com a equipe de saúde o início ou a continuidade do pré-natal"},
+      {"k": "questions", "t": "Anotar dúvidas para a próxima consulta"},
+      {"k": "docs", "t": "Separar documentos (identidade, cartão do SUS ou do convênio, exames anteriores)"},
+      {"k": "exams", "t": "Conferir com a equipe quais consultas e exames são indicados nesta fase"},
+      {"k": "support", "t": "Pensar em quem pode apoiar você nesta fase"},
+      {"k": "habits", "t": "Conversar com um profissional sobre alimentação e hábitos"}
+    ],
+    "emotional": [
+      "É normal sentir alegria e medo ao mesmo tempo. O que cada um desses sentimentos diz sobre o que é importante para você?",
+      "Como você gostaria de contar a novidade e para quem? Não há pressa.",
+      "O que você precisa neste momento: descanso, informação ou companhia?",
+      "Escreva três coisas que você quer lembrar deste começo."
+    ],
+    "partner": [
+      "Pergunte como ela está se sentindo e escute sem tentar resolver tudo.",
+      "Ofereça-se para acompanhar em uma consulta, se ela quiser.",
+      "Ajude com tarefas de casa nos dias de cansaço ou enjoo.",
+      "Evite cozinhar ou usar cheiros fortes se isso a incomodar."
+    ],
+    "faq": [
+      {"q": "Quando começar o pré-natal?", "a": "O ideal é começar assim que souber da gravidez. Procure a unidade de saúde ou o serviço que acompanha você."},
+      {"q": "É normal sentir enjoo?", "a": "É comum, mas varia muito. Se os vômitos forem frequentes e impedirem de se alimentar ou beber líquidos, procure avaliação."},
+      {"q": "Posso tomar algum remédio ou chá para os sintomas?", "a": "Não se automedique. Alguns medicamentos e chás não são seguros na gestação. Converse com a equipe de saúde antes."}
+    ],
+    "myths": [
+      {"claim": "Toda grávida tem enjoo.", "truth": "Mito", "why": "Muitas têm, mas nem todas. A intensidade varia entre mulheres e entre gestações."},
+      {"claim": "Grávida precisa comer por dois.", "truth": "Mito", "why": "A qualidade da alimentação importa mais do que dobrar a quantidade. A equipe orienta o que é adequado para você."}
+    ]
+  },
+
+  "2": {
+    "body": {
+      "summary": "Muitas mulheres relatam mais disposição nesta fase, mas isso não é regra. A barriga começa a aparecer e o corpo continua se adaptando.",
+      "common": ["Mais disposição para algumas (não para todas)", "Barriga crescendo", "Azia e sensação de estufamento", "Dor nas costas ou nas laterais da barriga", "Primeiros movimentos do bebê (o momento varia)", "Manchas ou coceira leve na pele"]
+    },
+    "checklist": [
+      {"k": "prenatal", "t": "Manter as consultas de pré-natal em dia"},
+      {"k": "questions", "t": "Anotar dúvidas para a próxima consulta"},
+      {"k": "exams", "t": "Conferir com a equipe quais consultas e exames são indicados nesta fase"},
+      {"k": "course", "t": "Pesquisar cursos ou rodas de preparação para o parto e a maternidade (opcional)"},
+      {"k": "rights", "t": "Conhecer seus direitos de gestante (trabalho, acompanhante, licença)"},
+      {"k": "activity", "t": "Perguntar à equipe sobre atividade física adequada para você"},
+      {"k": "support", "t": "Conversar com sua rede de apoio sobre como poderão ajudar"}
+    ],
+    "emotional": [
+      "Como está a sua relação com o seu corpo em transformação?",
+      "O que mudou na sua rotina e como você se sente em relação a isso?",
+      "Que expectativas das outras pessoas sobre a maternidade pesam em você? Quais delas são suas?",
+      "Que tipo de apoio você gostaria de receber nos próximos meses?"
+    ],
+    "partner": [
+      "Participe das consultas e ultrassons, se ela quiser e a unidade permitir.",
+      "Conversem sobre como será a divisão de tarefas depois que o bebê nascer.",
+      "Ajude a pesquisar cursos de preparação e a organizar o orçamento.",
+      "Fale com o bebê e acompanhe os primeiros movimentos, se ela estiver confortável."
+    ],
+    "faq": [
+      {"q": "Quando vou sentir o bebê mexer?", "a": "Muitas gestantes percebem os movimentos entre a 16ª e a 25ª semana. Varia, e costuma ser mais cedo em quem já teve filhos."},
+      {"q": "Posso fazer atividade física?", "a": "Em gestações sem contraindicação, a atividade física costuma ser incentivada, mas é importante a liberação e a orientação da equipe de saúde."},
+      {"q": "Dor nas costas é normal?", "a": "É comum, mas se for forte, persistente ou vier com febre, sangramento ou ardência ao urinar, procure atendimento."}
+    ],
+    "myths": [
+      {"claim": "O formato da barriga indica o sexo do bebê.", "truth": "Mito", "why": "O formato depende de fatores como a musculatura, a posição do bebê e o corpo de cada mulher."},
+      {"claim": "Gestante deve evitar qualquer atividade física.", "truth": "Mito", "why": "Em gestações sem contraindicação, a atividade física costuma ser recomendada, com orientação da equipe."}
+    ]
+  },
+
+  "3": {
+    "body": {
+      "summary": "Com o útero maior, o corpo pede mais descanso. É comum sentir cansaço, desconforto e ansiedade com a proximidade do parto.",
+      "common": ["Cansaço e dificuldade para dormir", "Inchaço leve nos pés no fim do dia", "Falta de ar leve com o útero crescido", "Contrações de treinamento, irregulares", "Vontade de urinar com frequência", "Dor lombar ou pélvica"]
+    },
+    "checklist": [
+      {"k": "prenatal", "t": "Manter as consultas de pré-natal em dia"},
+      {"k": "questions", "t": "Anotar dúvidas para a próxima consulta"},
+      {"k": "exams", "t": "Conferir com a equipe quais consultas e exames são indicados nesta fase"},
+      {"k": "birthplan", "t": "Conversar com a equipe sobre o plano de parto e suas preferências"},
+      {"k": "bag", "t": "Organizar a mala da maternidade"},
+      {"k": "docs", "t": "Separar documentos e o cartão da gestante para levar à maternidade"},
+      {"k": "transport", "t": "Combinar o transporte até a maternidade"},
+      {"k": "sleepspace", "t": "Preparar o espaço de sono seguro do bebê"}
+    ],
+    "emotional": [
+      "Que medos sobre o parto você gostaria de levar para a equipe de saúde?",
+      "O que você quer lembrar sobre este momento antes de tudo mudar?",
+      "Quem você quer por perto nos primeiros dias com o bebê? Como vai pedir ajuda?",
+      "Que parte do pós-parto você ainda não imaginou? Anote perguntas."
+    ],
+    "partner": [
+      "Combine com ela o plano para o dia do parto: quem avisa quem, transporte e mala.",
+      "Assuma tarefas de casa e compras para ela poder descansar.",
+      "Pergunte o que ela espera de você no parto e nos primeiros dias.",
+      "Informe-se sobre amamentação e recuperação do pós-parto para poder ajudar."
+    ],
+    "faq": [
+      {"q": "Como diferenciar contrações de treinamento do trabalho de parto?", "a": "As de treinamento costumam ser irregulares e passam com repouso ou mudança de posição. Contrações regulares, mais fortes e frequentes pedem contato com a equipe ou a maternidade. Pergunte à sua equipe qual é a orientação para o seu caso."},
+      {"q": "Quando ir à maternidade?", "a": "Siga a orientação da sua equipe. Em geral, procure atendimento se houver contrações regulares e progressivas, perda de líquido, sangramento ou diminuição dos movimentos do bebê."},
+      {"q": "O que levar na mala?", "a": "Documentos, cartão da gestante, roupas confortáveis, itens de higiene e roupas para o bebê. A maternidade pode ter uma lista própria; confirme com ela."}
+    ],
+    "myths": [
+      {"claim": "Se o bebê está mexendo menos no fim da gestação, é só porque falta espaço.", "truth": "Mito", "why": "Os movimentos mudam de padrão, mas não devem diminuir. Se notar redução, procure avaliação imediatamente."},
+      {"claim": "A data provável do parto é o dia em que o bebê vai nascer.", "truth": "Mito", "why": "É uma estimativa. Poucos bebês nascem exatamente nessa data."}
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "_comentario": "🔧 EDITAR: categorias, grupos da comunidade, sugestões de lista de compras, lojas e telefones úteis. Não precisa mexer no código.",
+
+  "articleCategories": [
+    {"slug": "primeiro-trimestre", "name": "Primeiro trimestre"},
+    {"slug": "segundo-trimestre", "name": "Segundo trimestre"},
+    {"slug": "terceiro-trimestre", "name": "Terceiro trimestre"},
+    {"slug": "tentativa-engravidar", "name": "Tentativa de engravidar"},
+    {"slug": "pre-natal-exames", "name": "Pré-natal e exames"},
+    {"slug": "alimentacao-gestacao", "name": "Alimentação na gestação"},
+    {"slug": "medicamentos-seguranca", "name": "Medicamentos e segurança"},
+    {"slug": "saude-emocional", "name": "Saúde emocional"},
+    {"slug": "sono-descanso", "name": "Sono e descanso"},
+    {"slug": "atividade-fisica", "name": "Atividade física e limitações"},
+    {"slug": "parto", "name": "Parto e plano de parto"},
+    {"slug": "amamentacao", "name": "Amamentação"},
+    {"slug": "recem-nascido", "name": "Cuidados com o recém-nascido"},
+    {"slug": "puerperio", "name": "Puerpério e recuperação"},
+    {"slug": "saude-mental-materna", "name": "Saúde mental materna"},
+    {"slug": "direitos", "name": "Direitos da gestante e da família"},
+    {"slug": "financas", "name": "Preparação financeira"},
+    {"slug": "enxoval-casa", "name": "Enxoval e organização da casa"},
+    {"slug": "participacao-parceiro", "name": "Participação do pai ou parceiro"},
+    {"slug": "rede-de-apoio", "name": "Rede de apoio"}
+  ],
+
+  "groups": [
+    {"slug": "tentantes", "name": "Tentantes", "about": "Para quem está tentando engravidar: dúvidas, ansiedade da espera e apoio."},
+    {"slug": "primeiro-tri", "name": "Primeiro trimestre", "about": "Descobertas, primeiras consultas e os sintomas do começo."},
+    {"slug": "segundo-tri", "name": "Segundo trimestre", "about": "A fase dos primeiros movimentos e da barriga que aparece."},
+    {"slug": "terceiro-tri", "name": "Terceiro trimestre", "about": "Reta final: ansiedade, mala e expectativas."},
+    {"slug": "preparacao-parto", "name": "Preparação para o parto", "about": "Planos de parto, medos e aprendizados."},
+    {"slug": "amamentacao", "name": "Amamentação", "about": "Experiências e acolhimento sobre amamentar (ou não)."},
+    {"slug": "pos-parto", "name": "Pós-parto", "about": "Recuperação, rotina nova e emoções do puerpério."},
+    {"slug": "maternidade-real", "name": "Maternidade real", "about": "Conversas honestas, sem filtro e sem julgamentos."},
+    {"slug": "pais-parceiros", "name": "Pais e parceiros", "about": "Troca de experiências de quem apoia a gestação."},
+    {"slug": "duvidas-gerais", "name": "Dúvidas gerais", "about": "Perguntas de qualquer fase. Lembre: aqui trocamos experiências, não diagnósticos."}
+  ],
+
+  "shoppingCategories": [
+    {"slug": "roupas", "name": "Roupas"},
+    {"slug": "higiene", "name": "Higiene"},
+    {"slug": "sono", "name": "Sono seguro"},
+    {"slug": "alimentacao", "name": "Alimentação"},
+    {"slug": "amamentacao", "name": "Amamentação"},
+    {"slug": "transporte", "name": "Transporte"},
+    {"slug": "banho", "name": "Banho"},
+    {"slug": "maternidade", "name": "Maternidade"},
+    {"slug": "casa", "name": "Organização da casa"},
+    {"slug": "posparto", "name": "Cuidados pós-parto"}
+  ],
+
+  "shoppingSuggestions": {
+    "_aviso": "Sugestões GENÉRICAS de itens (sem marcas nem preços). Cada família precisa de coisas diferentes.",
+    "roupas": ["Bodies", "Macacões", "Meias", "Gorros", "Mantas", "Luvas"],
+    "higiene": ["Fraldas", "Lenços umedecidos ou algodão", "Pomada para assaduras", "Cotonetes de ponta arredondada", "Álcool 70% para o coto umbilical (conforme orientação)"],
+    "sono": ["Berço ou moisés", "Colchão firme e adequado ao berço", "Lençóis de elástico justo"],
+    "alimentacao": ["Cadeira de alimentação (para mais tarde)", "Mamadeiras (se necessário)", "Babadores"],
+    "amamentacao": ["Sutiã de amamentação", "Absorventes de seio", "Almofada de amamentação"],
+    "transporte": ["Bebê conforto ou cadeirinha adequada à idade/peso", "Carrinho", "Canguru ou sling"],
+    "banho": ["Banheira", "Toalhas macias", "Sabonete neutro", "Termômetro de banho"],
+    "maternidade": ["Documentos e cartão da gestante", "Roupa de saída do bebê", "Camisola/roupa confortável para você", "Itens de higiene pessoal"],
+    "casa": ["Cesto de roupa", "Organizador de fraldas", "Luz noturna"],
+    "posparto": ["Absorventes pós-parto", "Calcinhas confortáveis", "Almofada ou assento de apoio"]
+  },
+
+  "shoppingSafety": {
+    "sono": "Sono seguro: superfície firme e plana, sem travesseiros, protetores, mantas soltas ou brinquedos no berço, e o bebê deitado de barriga para cima. Verifique se o produto possui certificação aplicável (ex.: Inmetro) e siga o manual.",
+    "transporte": "A legislação de trânsito brasileira exige dispositivo de retenção adequado à idade, peso e altura da criança. Instale conforme o manual e prefira produtos novos e certificados."
+  },
+
+  "stores": [
+    {"name": "Mercado Livre", "searchUrl": "https://lista.mercadolivre.com.br/{q}"},
+    {"name": "Amazon Brasil", "searchUrl": "https://www.amazon.com.br/s?k={q}"},
+    {"name": "Magazine Luiza", "searchUrl": "https://www.magazineluiza.com.br/busca/{q}/"},
+    {"name": "Shopee", "searchUrl": "https://shopee.com.br/search?keyword={q}"}
+  ],
+  "storeSearches": [
+    {"category": "Mamadeiras", "q": "mamadeira"},
+    {"category": "Roupas de bebê", "q": "body bebê"},
+    {"category": "Fraldas", "q": "fraldas"},
+    {"category": "Carrinhos", "q": "carrinho de bebê"},
+    {"category": "Cadeirinhas e bebê conforto", "q": "bebê conforto"},
+    {"category": "Higiene", "q": "kit higiene bebê"},
+    {"category": "Amamentação", "q": "sutiã amamentação"},
+    {"category": "Banho", "q": "banheira bebê"}
+  ],
+
+  "hotlines": [
+    {"name": "SAMU", "phone": "192", "about": "Emergências de saúde, 24h."},
+    {"name": "CVV — Centro de Valorização da Vida", "phone": "188", "about": "Apoio emocional gratuito, 24h."},
+    {"name": "Ligue 180", "phone": "180", "about": "Central de Atendimento à Mulher (violência), 24h."},
+    {"name": "Polícia", "phone": "190", "about": "Risco imediato à segurança."},
+    {"name": "Disque 100", "phone": "100", "about": "Violações de direitos humanos."}
+  ],
+
+  "moods": [
+    {"v": 1, "label": "Muito difícil"},
+    {"v": 2, "label": "Pesado"},
+    {"v": 3, "label": "Mais ou menos"},
+    {"v": 4, "label": "Bem"},
+    {"v": 5, "label": "Muito bem"}
+  ],
+
+  "reflections": [
+    "O que está pesando mais em você hoje? E o que está leve?",
+    "Que pedido de ajuda você gostaria de fazer, mas ainda não fez?",
+    "Que expectativa sobre a maternidade você carrega? De onde ela vem?",
+    "Escreva uma frase gentil que você diria a uma amiga na sua situação. Agora diga para você.",
+    "Do que você sente orgulho nesta fase, mesmo que pareça pequeno?",
+    "Qual preocupação você gostaria de levar para a sua próxima consulta?"
+  ],
+
+  "encouragements": [
+    "Cada passo, por menor que pareça, conta. Você está fazendo o seu melhor.",
+    "Pedir ajuda é uma forma de cuidado — com você e com quem está chegando.",
+    "Não existe jeito único de viver esta fase. O seu ritmo é válido.",
+    "Respire fundo. Hoje, basta o que for possível.",
+    "Você não precisa ter todas as respostas agora. Anote as dúvidas e leve para a consulta.",
+    "Descansar também é cuidar. Se der, faça uma pausa hoje.",
+    "Sentimentos misturados são comuns. Você pode sentir alegria e medo ao mesmo tempo."
+  ],
+
+  "postpartumChecklist": [
+    {"k": "pp-consulta", "t": "Conferir com a equipe de saúde as consultas de revisão do pós-parto e do bebê"},
+    {"k": "pp-sono", "t": "Rever as orientações de sono seguro do bebê"},
+    {"k": "pp-amamentacao", "t": "Anotar dúvidas sobre amamentação ou alimentação do bebê para a equipe de saúde"},
+    {"k": "pp-descanso", "t": "Combinar com alguém um período de descanso para você hoje"},
+    {"k": "pp-apoio", "t": "Conversar com sua rede de apoio sobre tarefas de casa e refeições"},
+    {"k": "pp-emocional", "t": "Reservar um momento para observar como você está se sentindo"},
+    {"k": "pp-documentos", "t": "Organizar documentos do bebê e cartão de vacinação"}
+  ],
+
+  "askSuggestions": {
+    "trying": ["O que significa cada fase do ciclo menstrual?", "Que perguntas posso levar para uma consulta antes de engravidar?", "Como lidar com a ansiedade da espera?"],
+    "pregnant": ["Quais perguntas posso levar para a próxima consulta de pré-natal?", "O que significa DPP e por que a data pode mudar?", "Como me preparar para o parto?", "Como conversar com meu parceiro sobre dividir tarefas?"],
+    "postpartum": ["Como organizar a rotina nas primeiras semanas?", "Quais sinais exigem procurar atendimento no pós-parto?", "Como pedir ajuda para a minha família?"],
+    "support": ["Como posso apoiar uma gestante de forma prática?", "O que posso fazer nos primeiros dias com o bebê?", "Como conversar sobre divisão de tarefas?"]
+  }
+}

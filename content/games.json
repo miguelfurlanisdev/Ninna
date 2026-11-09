@@ -1,0 +1,559 @@
+{
+ "_comentario": "🔧 EDITAR: perguntas (viram linhas do banco na primeira execução; depois edite no painel admin), itens da mala, pares da memória e marcos da linha do tempo.",
+ "questions": [
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 1,
+   "question": "Grávida precisa comer por dois.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "A qualidade da alimentação importa mais do que dobrar a quantidade. As necessidades aumentam de forma moderada, e a equipe orienta o que é adequado para cada caso.",
+   "source": "Ministério da Saúde — Guia Alimentar para a População Brasileira"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 1,
+   "question": "Fazer o pré-natal é importante mesmo quando não há sintomas.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 1,
+   "explanation": "O pré-natal serve para acompanhar a gestação e identificar cedo situações que precisam de cuidado, mesmo sem sintomas.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 1,
+   "question": "O formato da barriga indica se o bebê é menino ou menina.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "O formato depende de fatores como a musculatura, a posição do bebê e o corpo de cada mulher.",
+   "source": "Informação geral — conteúdo aguardando revisão profissional"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 2,
+   "question": "Todo chá é seguro na gestação porque é natural.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Alguns chás e fitoterápicos não são seguros na gestação. Converse com a equipe antes de usar.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 1,
+   "question": "Toda gestante sente os mesmos sintomas.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Cada gestação é única: algumas mulheres sentem muitos sintomas, outras poucos.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 2,
+   "question": "Se o bebê está mexendo menos, é melhor esperar o dia seguinte para ver se melhora.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Redução dos movimentos do bebê (depois de você já percebê-los) merece avaliação imediata, sem esperar.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 2,
+   "question": "A atividade física é sempre proibida na gestação.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Em gestações sem contraindicação, costuma ser incentivada, com liberação e orientação da equipe.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 1,
+   "question": "O bebê deve dormir de barriga para cima.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 1,
+   "explanation": "A posição de barriga para cima, em superfície firme e sem objetos soltos, é uma das medidas de sono seguro.",
+   "source": "Ministério da Saúde — Guia alimentar para crianças menores de 2 anos / orientações de sono seguro"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 2,
+   "question": "Amamentar deve doer sempre no começo e é só aguentar.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Dor persistente ou fissuras podem indicar pega inadequada ou outros problemas. Procure ajuda da equipe ou de um banco de leite.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 23 (aleitamento materno)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 2,
+   "question": "A gestante tem direito a acompanhante no parto nos serviços do SUS.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 1,
+   "explanation": "A Lei nº 11.108/2005 garante o direito a um acompanhante de livre escolha da parturiente.",
+   "source": "Lei nº 11.108/2005"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 3,
+   "question": "Quem está amamentando nunca engravida.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "Amamentar não é um método contraceptivo garantido. Converse com a equipe sobre planejamento.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 23 (aleitamento materno)"
+  },
+  {
+   "game": "mito",
+   "stage": null,
+   "difficulty": 3,
+   "question": "A data provável do parto é o dia em que o bebê vai nascer.",
+   "options": [
+    "Mito",
+    "Verdade"
+   ],
+   "answer": 0,
+   "explanation": "É uma estimativa: poucos bebês nascem exatamente na DPP.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 1,
+   "difficulty": 1,
+   "question": "O que significa a sigla DUM?",
+   "options": [
+    "Data da última menstruação",
+    "Data de uso de medicamento",
+    "Dia útil da maternidade",
+    "Data de ultrassom marcado"
+   ],
+   "answer": 0,
+   "explanation": "DUM é a data do primeiro dia da última menstruação, usada para contar a idade gestacional.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 1,
+   "difficulty": 1,
+   "question": "Quantas semanas dura, em média, uma gestação contada a partir da DUM?",
+   "options": [
+    "20 semanas",
+    "30 semanas",
+    "40 semanas",
+    "50 semanas"
+   ],
+   "answer": 2,
+   "explanation": "Em média, 40 semanas (280 dias) contadas a partir da DUM.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 1,
+   "difficulty": 2,
+   "question": "Até qual semana vai o primeiro trimestre?",
+   "options": [
+    "Até 8 semanas",
+    "Até 13 semanas e 6 dias",
+    "Até 20 semanas",
+    "Até 28 semanas"
+   ],
+   "answer": 1,
+   "explanation": "O primeiro trimestre vai até 13 semanas e 6 dias.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 1,
+   "difficulty": 2,
+   "question": "O que é recomendável fazer ao descobrir a gravidez?",
+   "options": [
+    "Esperar o terceiro trimestre para ir à consulta",
+    "Procurar a unidade de saúde para iniciar o pré-natal",
+    "Tomar suplementos por conta própria",
+    "Evitar contar a qualquer profissional"
+   ],
+   "answer": 1,
+   "explanation": "O ideal é iniciar o pré-natal o quanto antes.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 1,
+   "difficulty": 3,
+   "question": "Em geral, a partir de quando um teste de gravidez pode dar positivo?",
+   "options": [
+    "Antes da ovulação",
+    "A partir do atraso menstrual",
+    "Só após 12 semanas",
+    "Só com ultrassom"
+   ],
+   "answer": 1,
+   "explanation": "Perto do atraso da menstruação, testes podem dar positivo; a equipe confirma e orienta os próximos passos.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 2,
+   "difficulty": 1,
+   "question": "O ultrassom morfológico costuma ser feito em qual trimestre?",
+   "options": [
+    "Primeiro",
+    "Segundo",
+    "Terceiro",
+    "Só no pós-parto"
+   ],
+   "answer": 1,
+   "explanation": "Costuma ser feito no segundo trimestre; a equipe indica o melhor momento.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 2,
+   "difficulty": 2,
+   "question": "Em que período muitas gestantes percebem os primeiros movimentos do bebê?",
+   "options": [
+    "Entre a 16ª e a 25ª semana",
+    "Antes da 8ª semana",
+    "Só após a 36ª semana",
+    "Nunca percebem"
+   ],
+   "answer": 0,
+   "explanation": "Muitas percebem entre a 16ª e a 25ª semana, mas varia.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 2,
+   "difficulty": 2,
+   "question": "Para que serve o líquido amniótico?",
+   "options": [
+    "Só para alimentar o bebê",
+    "Proteger e permitir os movimentos do bebê",
+    "Apenas manter a barriga firme",
+    "Não tem função"
+   ],
+   "answer": 1,
+   "explanation": "Ele envolve o bebê, protege e permite que ele se movimente.",
+   "source": "Informação geral — conteúdo aguardando revisão profissional"
+  },
+  {
+   "game": "quiz",
+   "stage": 2,
+   "difficulty": 3,
+   "question": "Qual destes sinais exige avaliação rápida?",
+   "options": [
+    "Sonolência leve",
+    "Sangramento vaginal",
+    "Vontade de comer doce",
+    "Dor nas costas leve ao fim do dia"
+   ],
+   "answer": 1,
+   "explanation": "Sangramento vaginal precisa de avaliação profissional.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 3,
+   "difficulty": 1,
+   "question": "Em qual semana começa o terceiro trimestre (contagem usada no app)?",
+   "options": [
+    "Na 20ª",
+    "Na 24ª",
+    "Na 28ª",
+    "Na 36ª"
+   ],
+   "answer": 2,
+   "explanation": "O terceiro trimestre começa na 28ª semana.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 3,
+   "difficulty": 2,
+   "question": "A partir de quantas semanas a gestação é considerada a termo?",
+   "options": [
+    "30 semanas",
+    "34 semanas",
+    "37 semanas",
+    "42 semanas"
+   ],
+   "answer": 2,
+   "explanation": "A partir de 37 semanas considera-se termo (precoce: 37–38s6d; completo: 39–40s6d).",
+   "source": "Informação geral — conteúdo aguardando revisão profissional"
+  },
+  {
+   "game": "quiz",
+   "stage": 3,
+   "difficulty": 2,
+   "question": "O que o plano de parto representa?",
+   "options": [
+    "Uma garantia de que tudo ocorrerá como planejado",
+    "Um conjunto de preferências para conversar com a equipe",
+    "Um exame obrigatório",
+    "Um documento só para o hospital"
+   ],
+   "answer": 1,
+   "explanation": "É um conjunto de preferências, sem garantia — a segurança orienta as decisões.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  },
+  {
+   "game": "quiz",
+   "stage": 3,
+   "difficulty": 3,
+   "question": "Qual é a posição recomendada para o bebê dormir?",
+   "options": [
+    "De bruços",
+    "De lado",
+    "De barriga para cima",
+    "Tanto faz"
+   ],
+   "answer": 2,
+   "explanation": "De barriga para cima, em superfície firme e sem objetos soltos.",
+   "source": "Orientações de sono seguro — Ministério da Saúde / sociedades pediátricas"
+  },
+  {
+   "game": "quiz",
+   "stage": 3,
+   "difficulty": 3,
+   "question": "Se você notar que os movimentos do bebê diminuíram, o que fazer?",
+   "options": [
+    "Esperar uma semana",
+    "Procurar avaliação de saúde",
+    "Tomar um chá",
+    "Ignorar se não houver dor"
+   ],
+   "answer": 1,
+   "explanation": "Redução de movimentos merece avaliação imediata.",
+   "source": "Ministério da Saúde — Cadernos de Atenção Básica nº 32 (pré-natal de baixo risco)"
+  }
+ ],
+ "bag": [
+  {
+   "id": "docs",
+   "name": "Documentos e cartão da gestante",
+   "zone": "essencial",
+   "why": "A maternidade precisa dos documentos e do histórico do pré-natal."
+  },
+  {
+   "id": "id",
+   "name": "Documento de identidade e cartão do SUS/convênio",
+   "zone": "essencial",
+   "why": "Para o registro e o atendimento."
+  },
+  {
+   "id": "outfit-baby",
+   "name": "Roupa de saída do bebê",
+   "zone": "bebe",
+   "why": "O bebê vai precisar de roupas confortáveis para ir para casa."
+  },
+  {
+   "id": "diapers",
+   "name": "Fraldas",
+   "zone": "bebe",
+   "why": "Algumas maternidades fornecem, outras não. Confirme."
+  },
+  {
+   "id": "blanket",
+   "name": "Manta",
+   "zone": "bebe",
+   "why": "Ajuda na saída e no transporte."
+  },
+  {
+   "id": "gown",
+   "name": "Camisola ou roupa aberta na frente",
+   "zone": "mae",
+   "why": "Facilita a amamentação e o contato pele a pele."
+  },
+  {
+   "id": "pads",
+   "name": "Absorventes pós-parto",
+   "zone": "mae",
+   "why": "O sangramento após o parto é esperado."
+  },
+  {
+   "id": "bra",
+   "name": "Sutiã de amamentação",
+   "zone": "mae",
+   "why": "Pode ser útil se você for amamentar."
+  },
+  {
+   "id": "toiletries",
+   "name": "Itens de higiene pessoal",
+   "zone": "mae",
+   "why": "Escova de dentes, sabonete, etc."
+  },
+  {
+   "id": "slippers",
+   "name": "Chinelo",
+   "zone": "mae",
+   "why": "Para o banho e o hospital."
+  },
+  {
+   "id": "charger",
+   "name": "Carregador de celular",
+   "zone": "opcional",
+   "why": "Útil, mas não essencial."
+  },
+  {
+   "id": "snacks",
+   "name": "Lanchinhos",
+   "zone": "opcional",
+   "why": "Alguns locais restringem alimentos; confirme."
+  },
+  {
+   "id": "pillow",
+   "name": "Travesseiro de casa",
+   "zone": "opcional",
+   "why": "Conforto pessoal; nem todo hospital permite."
+  },
+  {
+   "id": "plan",
+   "name": "Plano de parto (cópia)",
+   "zone": "essencial",
+   "why": "Ajuda a equipe a conhecer as suas preferências."
+  }
+ ],
+ "memory": [
+  {
+   "id": "sono",
+   "label": "Sono seguro",
+   "fact": "De barriga para cima, em superfície firme e sem objetos soltos.",
+   "icon": "moon"
+  },
+  {
+   "id": "afeto",
+   "label": "Vínculo",
+   "fact": "Colo, voz e contato pele a pele ajudam no vínculo com o bebê.",
+   "icon": "heart"
+  },
+  {
+   "id": "banho",
+   "label": "Banho",
+   "fact": "Água morna e sabonete neutro; nunca deixe o bebê sozinho na água.",
+   "icon": "drop"
+  },
+  {
+   "id": "amamentar",
+   "label": "Amamentação",
+   "fact": "Uma boa pega costuma evitar dor e fissuras. Procure ajuda se doer.",
+   "icon": "bottle"
+  },
+  {
+   "id": "leitura",
+   "label": "Leitura",
+   "fact": "Ler e conversar com o bebê estimula a linguagem desde cedo.",
+   "icon": "book"
+  },
+  {
+   "id": "cancao",
+   "label": "Canções",
+   "fact": "Cantar acalma e fortalece o vínculo — não precisa cantar bem!",
+   "icon": "music"
+  },
+  {
+   "id": "passeio",
+   "label": "Transporte",
+   "fact": "Use sempre a cadeirinha adequada à idade, ao peso e à altura.",
+   "icon": "car"
+  },
+  {
+   "id": "cuidado",
+   "label": "Rede de apoio",
+   "fact": "Pedir ajuda faz parte do cuidado.",
+   "icon": "hands"
+  }
+ ],
+ "milestones": [
+  {
+   "week": 4,
+   "text": "Implantação no útero",
+   "info": "O blastocisto se aloja no revestimento do útero."
+  },
+  {
+   "week": 6,
+   "text": "Coração começa a bater",
+   "info": "Os batimentos podem aparecer no ultrassom."
+  },
+  {
+   "week": 10,
+   "text": "Fim da fase embrionária",
+   "info": "Os principais órgãos estão formados."
+  },
+  {
+   "week": 14,
+   "text": "Início do segundo trimestre",
+   "info": "O bebê faz expressões e engole líquido amniótico."
+  },
+  {
+   "week": 18,
+   "text": "Ouvido interno se desenvolve",
+   "info": "O bebê pode começar a reagir a sons."
+  },
+  {
+   "week": 20,
+   "text": "Metade da gestação",
+   "info": "Momento comum do ultrassom morfológico (a equipe indica)."
+  },
+  {
+   "week": 24,
+   "text": "Pulmões produzem surfactante",
+   "info": "Substância que ajuda a respirar após o nascimento."
+  },
+  {
+   "week": 28,
+   "text": "Início do terceiro trimestre",
+   "info": "Olhos abrem e fecham; cérebro mais complexo."
+  },
+  {
+   "week": 37,
+   "text": "Termo precoce",
+   "info": "A gestação passa a ser considerada a termo."
+  },
+  {
+   "week": 40,
+   "text": "Data provável do parto",
+   "info": "Uma estimativa: poucos bebês nascem nessa data."
+  }
+ ]
+}
